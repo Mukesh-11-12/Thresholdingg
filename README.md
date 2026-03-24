@@ -22,16 +22,16 @@ Use Adaptive thresholding to segment the image.
 ### Step5:
 Use Otsu's method to segment the image and display the results.
 ## Program
-NAME : ADHARSH VIDYARDH U
+NAME : MUKESH D
 
-REG NO : 212224230007
+REG NO : 212224040204
 ```
 import cv2
 import matplotlib.pyplot as plt
 
 # Read the Image and convert to grayscale
 
-image=cv2.imread('me.jpeg')
+image=cv2.imread('mk.jpeg')
 gray_img=cv2.cvtColor(image,cv2.COLOR_BGR2GRAY)
 
 # Original image
@@ -78,22 +78,26 @@ plt.show()
 ## Output
 ## Original
 
-<img width="226" height="293" alt="image" src="https://github.com/user-attachments/assets/6f0bc120-3534-4bad-a64d-1eea6cb818b2" />
+<img width="272" height="304" alt="image" src="https://github.com/user-attachments/assets/b5d59180-53c4-4dd0-92a6-df6a8f65d8ee" />
+
 
 
 ## Global Thresholding
 
-<img width="242" height="284" alt="image" src="https://github.com/user-attachments/assets/d14ad6a6-114f-4d96-911a-45a03b500ffc" />
+<img width="238" height="287" alt="image" src="https://github.com/user-attachments/assets/e3a750ce-4e1c-401d-b0fe-08ea56a73999" />
+
 
 
 ## Adaptive Thresholding
 
-<img width="255" height="293" alt="image" src="https://github.com/user-attachments/assets/5c38bee5-3f50-452c-8a8f-e94282dbc6df" />
+<img width="278" height="299" alt="image" src="https://github.com/user-attachments/assets/073ce2e3-8b00-4c1f-b793-354489ae23e8" />
+
 
 
 ## Otsu's Method
 
-<img width="199" height="276" alt="image" src="https://github.com/user-attachments/assets/2a0201c2-3a6f-4ced-96b5-d4f992f400ff" />
+<img width="233" height="292" alt="image" src="https://github.com/user-attachments/assets/f3b75297-564b-4bda-87dc-019874147b23" />
+
 
 
 
